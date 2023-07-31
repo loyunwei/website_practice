@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function getValue()
+        {
+            var y = document.getElementById("input").value;
+
+            if(y === "Ntust")
+            {
+                window.location.assign("https://www.ntust.edu.tw/");
+            }   
+        }
+    
+    </script>
+</head>
+<body>
+
+<img src="台科.jpg" alt="NTUST" width="810" height="540">
+<p></p>
+<input type="text" id="input" name="input" size="50" placeholder="請輸入文字(只有Ntust會跳轉，區分大小寫)">
+<button type="button" id="submit" onclick="getValue()">確定</button>
+
+</body>
+</html>
